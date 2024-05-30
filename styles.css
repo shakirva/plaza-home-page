@@ -1121,6 +1121,17 @@ a {
             color: #ffffff;
                 
         }
+
+        .feedback-heading h2 {
+            position: absolute;
+            bottom: 370px;
+            right: 63px;
+            z-index: 1000;
+            color: #611A1F;
+            padding: 10px;
+            font-size: 15px;
+            
+        }
     
 
 }
