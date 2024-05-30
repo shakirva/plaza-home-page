@@ -568,6 +568,7 @@ a {
     width: 350px;
     border-radius: 50px;
     border: 4px solid #611A1F;
+   
 }
 
 
@@ -1024,7 +1025,7 @@ a {
         position:absolute;
         height: 180px;
         width: 75%;
-        margin-top: 1150px;
+        margin-top: 1180px;
         margin-left: -35%;
         margin-right: 10%;
         border-radius: 50px;
@@ -1084,6 +1085,45 @@ a {
 
 
 
+/* Media Queries for Tablet Responsiveness */
+
+@media (min-width: 414px) and (max-width: 1024px) {
+   
+
+        .blog-img-1 {
+            position:absolute;
+            height: 180px;
+            width: 75%;
+            margin-top: 530px;
+            margin-left: -35%;
+            margin-right: 10%;
+            border-radius: 50px;
+            border: 4px solid #611A1F;
+        }
+    
+        .blog-img-2 {
+            position:absolute;
+            height: 180px;
+            width: 75%;
+            margin-top: 1090px;
+            margin-left: -35%;
+            margin-right: 10%;
+            border-radius: 50px;
+            border: 4px solid #611A1F;
+        }
+    
+        .header-content p, .header-content .contact-us-btn {
+            font-size: 9px;
+            width: auto;
+            height: auto;
+            margin-left: 10%;
+            margin-top:30%;
+            color: #ffffff;
+                
+        }
+    
+
+}
 
 
 
