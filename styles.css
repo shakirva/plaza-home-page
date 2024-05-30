@@ -847,42 +847,7 @@ a {
     }
   
 
-    @media (max-width: 376px) {
-
-        .section-2 img {
-            position: absolute;
-            width: 25%;
-            height: 20%;
-            left: 2px;
-            top: -17%;
-           
-        }
-        .section-1 {
-            height: 86vh;
-            background-color: #611A1F;
-            width: 60%;
-            border-bottom-right-radius: 75px;
-        }
-        .feedback-heading h2 {
-            font-size: 15px;
-            top: 60%;
-            margin-right: -92%;
-           font-weight: 700;
-           color: #611A1F;
-           position: absolute;
-         
-           
-        }
-        .section-2 {
-            height: 720px;
-            background-color: #ffffff;
-        }
-        /* styles for large phones and small tablets */
-
-     
-        
-    }
-
+   
     
 
     .blurred-image {
@@ -1083,7 +1048,41 @@ a {
     }
 }
 
+@media (max-width: 376px) {
 
+    .section-2 img {
+        position: absolute;
+        width: 25%;
+        height: 20%;
+        left: 2px;
+        top: -17%;
+       
+    }
+    .section-1 {
+        height: 86vh;
+        background-color: #611A1F;
+        width: 60%;
+        border-bottom-right-radius: 75px;
+    }
+    .feedback-heading h2 {
+        font-size: 15px;
+        top: 60%;
+        margin-right: -92%;
+       font-weight: 700;
+       color: #611A1F;
+       position: absolute;
+     
+       
+    }
+    .section-2 {
+        height: 720px;
+        background-color: #ffffff;
+    }
+    /* styles for large phones and small tablets */
+
+ 
+    
+}
 
 /* Media Queries for Tablet Responsiveness */
 
@@ -1122,20 +1121,55 @@ a {
                 
         }
 
-        .feedback-heading h2 {
-            position: absolute;
-            bottom: 370px;
-            right: 63px;
-            z-index: 1000;
-            color: #611A1F;
-            padding: 10px;
-            font-size: 15px;
+     
+
+}
+
+@media (min-width: 385px) and (max-width: 900px) {
+    .feedback-heading h2 {
+        position: absolute;
+        bottom: 370px;
+        right: 5px;
+        z-index: 1000;
+        color: #611A1F;
+        padding: 10px;
+        font-size: 10px;
+        
+    }
+    .header-content p, .header-content .contact-us-btn {
+        font-size: 9px;
+        width: auto;
+        height: auto;
+        margin-left: 10%;
+        margin-top:30%;
+        color: #ffffff;
             
-        }
-    
+    }
+
 
 }
 
 
+@media (min-width: 325px) and (max-width: 900px) {
+    .feedback-heading h2 {
+        position: absolute;
+        bottom: 370px;
+        right: 60px;
+        z-index: 1000;
+        color: #611A1F;
+        padding: 10px;
+        font-size: 13px;
+        
+    }
+    .header-content p {
+        font-size: 10px;
+        width: auto;
+        height: auto;
+        margin-left: 10%;
+        margin-top:30%;
+        color: #ffffff;
+            
+    }
 
 
+}
